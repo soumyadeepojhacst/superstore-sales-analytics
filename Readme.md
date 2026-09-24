@@ -82,15 +82,15 @@ identical).
 
 ### Power BI — Executive Summary
 
-![Executive Summary](screenshots/dashboard_page1.png)
+![Executive Summary](Screenshots/Power_BI_Dashboard/Dashboard1.png)
 
 ### Power BI — Customer & Segment Analysis
 
-![Customer Analysis](screenshots/dashboard_page2.png)
+![Customer Analysis](Screenshots/Power_BI_Dashboard/Dashboard2.png)
 
 ### Excel Report Dashboard
 
-![Excel Dashboard](screenshots/excel_dashboard.png)
+![Excel Dashboard](Screenshots/Excel_Dashboard/Excel_Dashboard.png)
 
 ## How to Reproduce This Project
 
