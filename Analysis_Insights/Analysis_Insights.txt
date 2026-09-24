@@ -1,0 +1,73 @@
+SUPERSTORE SALES ANALYSIS - KEY QUESTIONS & INSIGHTS
+======================================================
+
+1. QUESTION: Which product category/sub-category generates the most profit
+   — and are any actually losing money?
+
+   INSIGHT: All three categories generate similar total profit (Office
+   Supplies and Furniture ~755K, Technology ~730K) — no category is
+   dramatically outperforming the others. At the sub-category level,
+   Tables and Chairs are the most profitable (~195K each), while
+   Computers and Storage are the least profitable (~130-135K). No
+   sub-category shows a net loss in this dataset — every sub-category
+   is profitable, just at varying levels.
+
+
+2. QUESTION: How do sales trend over time — are there seasonal spikes
+   (e.g., holiday months, Q4)?
+
+   INSIGHT: Monthly sales fluctuate between ~440K and ~595K over the
+   two-year period (May 2023-March 2025) with no strong or consistent
+   seasonal pattern — there's no clear Q4/holiday spike. Peaks and dips
+   appear irregular rather than tied to a specific season, suggesting
+   demand in this dataset isn't strongly seasonal. (Note: incomplete
+   boundary months at the start and end of the dataset were excluded
+   to avoid distorting the trend line.)
+
+
+3. QUESTION: Which region or state performs best/worst in sales and
+   profit?
+
+   INSIGHT: South leads in both sales (~3.25M) and profit (~575K),
+   followed closely by West, Central, and East. However, the gap
+   between regions is small, and all four regions convert sales to
+   profit at a similar rate (~17-18% margin) — meaning no region is
+   significantly underperforming or over-relying on discounting to
+   drive volume.
+
+
+4. QUESTION: Who are the top 10 customers by revenue, and what % of
+   total sales do they represent?
+
+   INSIGHT: The top 10 customers (led by Michael Williams at $13,947
+   and Michael Smith at $12,879) collectively generated approximately
+   $101,646 in sales — roughly 0.8% of total company revenue (~$12.5M).
+   This low concentration is a positive sign: the business isn't
+   overly dependent on a small handful of customers, which reduces
+   revenue risk compared to a business where top customers might
+   represent 20-30%+ of sales.
+
+
+5. QUESTION: Does higher discount lead to lower profit? (i.e., is heavy
+   discounting hurting the business?)
+
+   INSIGHT: No, not in this dataset. Testing both raw profit and
+   profit margin, correlation with discount rate was close to 0
+   (weak, roughly -0.05 to -0.15) even after removing unrealistic
+   outlier margins. Profit margins stayed similarly spread (roughly
+   0-20% average) at both low and high discount levels, indicating
+   discount level alone is not a reliable driver of profitability
+   here — other factors like product category likely play a bigger
+   role.
+
+
+6. QUESTION: Which customer segment (Consumer, Corporate, Home Office)
+   is the most profitable, and how does their average order value
+   compare?
+
+   INSIGHT: Home Office is the most profitable segment (~775K total
+   profit), slightly ahead of Corporate and Consumer (both ~730K,
+   nearly identical to each other). Despite likely having fewer total
+   customers than Consumer, Home Office converts sales into profit
+   more efficiently — worth a follow-up analysis on average order
+   value or discount behavior by segment to pinpoint the exact driver.
